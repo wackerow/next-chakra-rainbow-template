@@ -1,6 +1,7 @@
 import { Flex, Heading, IconButton, Text, useColorMode } from '@chakra-ui/react'
 import { SunIcon, MoonIcon } from '@chakra-ui/icons'
 import Head from 'next/head'
+import { ConnectButton } from '@rainbow-me/rainbowkit'
 
 export default function Home() {
   const { colorMode, toggleColorMode } = useColorMode()
@@ -27,16 +28,15 @@ export default function Home() {
           mt={8}
         >
           <Heading as="h1">Hello world</Heading>
-          <Text>
-            This is a NextJS + Chakra-UI app template
-          </Text>
+          <Text>This is a NextJS + Chakra-UI + RainbowKit app template</Text>
           <IconButton
             w="fit-content"
             mx="auto"
-            icon={isDarkMode?<SunIcon/>:<MoonIcon/>}
+            icon={isDarkMode ? <SunIcon /> : <MoonIcon />}
             onClick={toggleColorMode}
             aria-label="Toggle color mode"
           />
+          <ConnectButton />
         </Flex>
       </main>
     </>

@@ -1,7 +1,7 @@
 {
-  "name": "nextjs-chakraui-template",
+  "name": "nextjs-chakraui-rainbow-template",
   "version": "0.1.0",
-  "description": "NextJS + Chakra-UI website template",
+  "description": "NextJS + Chakra-UI + RainbowKit website template",
   "author": "Paul Wackerow <54227730+wackerow@users.noreply.github.com>",
   "license": "MIT",
   "private": false,
@@ -18,16 +18,19 @@
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@next/font": "13.1.6",
+    "@rainbow-me/rainbowkit": "^0.12.1",
     "@types/node": "18.11.18",
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.6",
+    "ethers": "5.7.2",
     "framer-motion": "^8.5.4",
     "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "4.9.4"
+    "typescript": "4.9.4",
+    "wagmi": "^0.12.1"
   },
   "devDependencies": {
     "prettier": "^2.8.3"
